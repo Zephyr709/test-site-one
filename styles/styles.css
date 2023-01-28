@@ -35,10 +35,13 @@ h1 {
     text-align:center;
     margin:0;
     padding: 20px 0px;
-    color:rgb(56, 176, 231);
+    color:darkgray;
     text-shadow: 3px 3px 1px black;
 }
 
+h2{
+    text-align: center;
+}
 p,li {
     font-size: 16px;
     line-height: 2;
