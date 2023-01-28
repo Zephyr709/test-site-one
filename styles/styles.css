@@ -1,5 +1,46 @@
-/*css comment */
+/*css comment 
+PADDING, the space around the content. In the example below, it is the space around the paragraph text.
+BORDER, the solid line that is just outside the padding.
+MARGIN, the space around the outside of the border.
+WIDTH (of an element).
+BACKGROUND-COLOR, the color behind an element's content and padding.
+COLOR, the color of an element's content (usually text).
+TEXT-SHADOW sets a drop shadow on the text inside an element.
+DISPLAY sets the display mode of an element.
+*/
 html {
-    font-size: 30px;
+    /* Use Google Fonts library and API for fonts */
+    font-size: 25px;
     font-family: 'Roboto Mono', monospace;
+    background-color: darkgrey;
+
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color:whitesmoke;
+    padding: 0px 30px 30px 30px;
+    border: 5px solid black;
+
+}
+
+img {
+    display:block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 60px;
+    text-align:center;
+    margin:0;
+    padding: 20px 0px;
+    color:rgb(56, 176, 231);
+    text-shadow: 3px 3px 1px black;
+}
+
+p,li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
