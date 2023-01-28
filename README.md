@@ -2,7 +2,9 @@
 place to test different things during the learning process
 
 Changelog
+
 .104 js file reset
+
 .105 {
     JS- added the ability to change image on click
         created a function to prompt user for a name and display that name on the webpage as well as store it locally in the browser
