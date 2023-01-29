@@ -6,7 +6,7 @@
 
 const myImage = document.querySelector('img');
 
-myImage.onclick = () => {
+myImage.onclick = (event) => {
     const mySrc =myImage.getAttribute("src");
     if (mySrc ==="images/black-hole-1.jpg") {
         myImage.setAttribute("src", "images/black-hole-2.jpg")
@@ -34,6 +34,6 @@ function setUserName() {
     }
 }*/
 
-myButton.onclick = () => {
+myButton.onclick = (event) => {
     setUserName();
 }
